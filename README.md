@@ -1,6 +1,6 @@
 # Dynamic FPS
 
-Geode mod for geometry dash.
+Geode mod for Geometry Dash.
 
 Changes the game's framerate when sitting in the menu to save resources.
 
