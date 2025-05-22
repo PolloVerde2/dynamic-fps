@@ -1,0 +1,39 @@
+{
+	"geode": "4.3.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "polloverde.dynamic_fps",
+	"name": "Dynamic FPS",
+	"version": "v1.0.0",
+	"developer": "PolloVerde",
+	"description": "Limits FPS when sitting in menus.",
+	"tags": ["performance"],
+	"links": {
+		"source": "a"
+	},
+
+	"settings": {
+		"settings-title": {
+            "type": "title",
+            "name": "Mod settings"
+        },
+		"menu-fps": {
+			"name": "Target menu FPS",
+			"description": "Framerate at which the game will run on any menu.",
+			"type": "int",
+			"default": 60,
+			"min": 1
+		},
+		"play-fps": {
+			"name": "Target in-game FPS",
+			"description": "Framerate at which the game will run when playing a level.",
+			"type": "int",
+			"default": 60,
+			"min": 1
+		}
+	}
+}
