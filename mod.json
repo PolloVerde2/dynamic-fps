@@ -13,7 +13,7 @@
 	"description": "Limits FPS when sitting in menus.",
 	"tags": ["performance"],
 	"links": {
-		"source": "a"
+		"source": "https://github.com/PolloVerde2/dynamic-fps"
 	},
 
 	"settings": {
